@@ -1,9 +1,7 @@
 {
-    name: 'astrix',
-    fullName: 'Astrix Network',
-    symbol: 'ASTRIX',
-    algorithm: 'AstrixHash', // Replace with AstrixHash details
-    port: 34150,  // RPC port for Astrix node
-    getBlockTemplateSupport: true
+    "name": "astix",
+    "symbol": "AIX",
+    "algorithm": "AstrixHash",                                                                                                                                                         │·····································
+    "peerMagic": "21212121",                                                                                                                                             │·····································
+    "peerMagicTestnet": "01fefe05"
 }
-
