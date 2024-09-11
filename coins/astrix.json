@@ -5,5 +5,5 @@
     algorithm: 'AstrixHash', // Replace with AstrixHash details
     port: 34150,  // RPC port for Astrix node
     getBlockTemplateSupport: true
-};
+}
 
