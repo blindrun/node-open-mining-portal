@@ -1,4 +1,4 @@
-var astrix = {
+{
     name: 'astrix',
     fullName: 'Astrix Network',
     symbol: 'ASTRIX',
@@ -6,4 +6,4 @@ var astrix = {
     port: 34150,  // RPC port for Astrix node
     getBlockTemplateSupport: true
 };
-module.exports = astrix;
+
