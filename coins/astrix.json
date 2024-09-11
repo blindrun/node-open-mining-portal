@@ -1,7 +1,5 @@
 {
     "name": "astix",
     "symbol": "AIX",
-    "algorithm": "AstrixHash",                                                                                                                                                         │·····································
-    "peerMagic": "21212121",                                                                                                                                             │·····································
-    "peerMagicTestnet": "01fefe05"
+    "algorithm": "AstrixHash",
 }
