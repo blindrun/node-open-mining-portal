@@ -1,0 +1,55 @@
+{
+    "enabled": true,
+    "coin": "astrix.json",
+    "address": "your_wallet_address",
+    "rewardRecipients": {
+        "your_wallet_address": 1
+    },
+    "blockRefreshInterval": 1000,
+    "jobRebroadcastTimeout": 55,
+    "connectionTimeout": 600,
+    "emitInvalidBlockHashes": false,
+    "tcpProxyProtocol": false,
+    "paymentProcessing": {
+        "enabled": true,
+        "paymentInterval": 60,
+        "minimumPayment": 0.1,
+        "daemon": {
+            "host": "137.220.50.207",
+            "port": 34150,
+            "user": "rpcuser",
+            "password": "rpcpassword"
+        }
+    },
+    "ports": {
+        "3032": {
+            "diff": 16,
+            "varDiff": {
+                "minDiff": 8,
+                "maxDiff": 256,
+                "targetTime": 15,
+                "retargetTime": 90,
+                "variancePercent": 30
+            }
+        }
+    },
+    "daemons": [
+        {
+            "host": "137.220.50.207",
+            "port": 34150,
+            "user": "rpcuser",
+            "password": "rpcpassword"
+        }
+    ],
+    "payoutScheme": "PPLNS",
+    "payoutSchemeConfig": {
+        "factor": 2.0
+    },
+    "redis": {
+        "host": "127.0.0.1",
+        "port": 6379
+    },
+    "logging": {
+        "logLevel": "debug"
+    }
+}
